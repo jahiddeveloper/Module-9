@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -31,4 +35,54 @@ ul li a {
     color: #424242;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+.navbar, .banner {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+
+/****banner related styles****/
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-description {
+    font-size: 1rem;
+    color: #727272;
+}
+
+.btn-1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    background-color: #FF900E;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar, ul {
+        flex-direction: column;
+    }
 }
