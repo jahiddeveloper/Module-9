@@ -1,0 +1,34 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.nav-logo{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
