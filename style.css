@@ -127,6 +127,69 @@ main > section {
 }
 
 
+
+/**enjoy related style**/
+
+
+.enjoy {
+    display: flex;
+    gap: 100px;
+}
+
+#enjoy-section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    border-radius: 3px;
+}
+
+.enjoy-description {
+    margin-bottom: 30px;
+    color: #727272;
+}
+
+.enjoy-card {
+    padding: 30px;
+    box-shadow: 0 4px 300px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.enjoy-card h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.enjoy-card p {
+    color: #727272;
+    margin-top: 10px;
+}
+
+
+.btn-3 {
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 42px 46px;
+    margin-left: -50px;
+    margin-top: -120px;
+}
+
+.part-4 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.part-5 {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+#enjoy-pic {
+    width: 100%;
+}
 /***fact***/
 
 .fact-title {
@@ -234,6 +297,13 @@ main > section {
         gap: 20px;
         justify-items: center;
     }
+
+    .enjoy {
+        flex-direction: column;
+    }
+
+    
+    
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -253,5 +323,9 @@ main > section {
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+
+    .enjoy {
+        flex-direction: column;
     }
 }
